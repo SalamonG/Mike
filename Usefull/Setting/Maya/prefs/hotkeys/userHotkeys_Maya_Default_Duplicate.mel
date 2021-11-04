@@ -1,0 +1,34 @@
+//Maya Preference 2016 (Release 1)
+//
+//
+
+//
+// The hotkey set
+//
+hotkeySet -source "Maya_Default" -current Maya_Default_Duplicate;
+//
+// The hotkey contexts and hotkeys
+//
+hotkey -keyShortcut "b" -ctl -name ("BridgeEdgeNameCommand");
+hotkey -keyShortcut "1" -ctl -name ("");
+hotkey -keyShortcut "c" -ctl -name ("FillHoleNameCommand");
+hotkey -keyShortcut "e" -ctl -name ("ConnectComponentsNameCommand");
+hotkey -keyShortcut "g" -sht -name ("UngroupNameCommand");
+hotkey -keyShortcut "f" -ctl -name ("CenterPivotNameCommand");
+hotkey -keyShortcut "c" -alt -name ("SplitPolygonToolNameCommand");
+hotkey -keyShortcut "x" -ctl -name ("DetachComponentNameCommand");
+hotkey -keyShortcut "`" -releaseName ("");
+hotkey -keyShortcut "`" -name ("ToggleIsolateSelectNameCommand");
+hotkey -keyShortcut "e" -ctl -alt -name ("SplitEdgeRingToolNameCommand");
+hotkeyCtx -type "Editor" -addClient "hyperShadePanel";
+hotkeyCtx -type "Editor" -addClient "polyTexturePlacementPanel";
+hotkeyCtx -type "Editor" -addClient "nodeEditorPanel";
+hotkeyCtx -type "Editor" -addClient "outlinerPanel";
+hotkeyCtx -type "Editor" -addClient "cteEditor";
+hotkeyCtx -type "Editor" -addClient "profilerPanel";
+hotkeyCtx -type "Editor" -addClient "hyperGraphPanel";
+hotkeyCtx -type "Editor" -addClient "graphEditor";
+hotkeyCtx -type "Tool" -addClient "texCutContext";
+hotkeyCtx -type "Tool" -addClient "sculptMeshCache";
+hotkeyCtx -type "Tool" -addClient "texSculptCacheContext";
+hotkeyCtx -type "Tool" -addClient "Unfold3DBrush";

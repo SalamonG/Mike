@@ -1,0 +1,58 @@
+//Maya Preference 2016 (Release 1)
+//
+//
+
+nameCommand
+	-annotation "SplitPolygonToolNameCommand"
+	-sourceType "mel"
+	-command ("SplitPolygonTool")
+	SplitPolygonToolNameCommand;
+
+nameCommand
+	-annotation "ConnectComponentsNameCommand"
+	-sourceType "mel"
+	-command ("ConnectComponents")
+	ConnectComponentsNameCommand;
+
+nameCommand
+	-annotation "DetachComponentNameCommand"
+	-sourceType "mel"
+	-command ("DetachComponent")
+	DetachComponentNameCommand;
+
+nameCommand
+	-annotation "SplitEdgeRingToolNameCommand"
+	-sourceType "mel"
+	-command ("SplitEdgeRingTool")
+	SplitEdgeRingToolNameCommand;
+
+nameCommand
+	-annotation "BridgeEdgeNameCommand"
+	-sourceType "mel"
+	-command ("BridgeEdge")
+	BridgeEdgeNameCommand;
+
+nameCommand
+	-annotation "FillHoleNameCommand"
+	-sourceType "mel"
+	-command ("FillHole")
+	FillHoleNameCommand;
+
+nameCommand
+	-annotation "CenterPivotNameCommand"
+	-sourceType "mel"
+	-command ("CenterPivot")
+	CenterPivotNameCommand;
+
+nameCommand
+	-annotation "UngroupNameCommand"
+	-sourceType "mel"
+	-command ("Ungroup")
+	UngroupNameCommand;
+
+nameCommand
+	-annotation "ToggleIsolateSelectNameCommand"
+	-sourceType "mel"
+	-command ("ToggleIsolateSelect")
+	ToggleIsolateSelectNameCommand;
+
